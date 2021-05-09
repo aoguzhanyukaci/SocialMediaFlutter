@@ -31,10 +31,10 @@ class _AnasayfaState extends State<Anasayfa> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100], // app arkaplan rengini ayarladık
+      backgroundColor: Colors.grey[100], 
       appBar: AppBar(
-        backgroundColor: Colors.grey[100], // appbar arkaplan rengini ayarladık
-        elevation: 0.0, // gölgelendirmeyi kapattık
+        backgroundColor: Colors.grey[100], /
+        elevation: 0.0, 
         leading: IconButton(
             icon: Icon(
               Icons.menu,
@@ -78,7 +78,7 @@ class _AnasayfaState extends State<Anasayfa> {
               BoxShadow(
                   color: Colors.grey,
                   offset: Offset(0.0, 3.0),
-                  blurRadius: 5.0) //gölge vermek için kullanılır
+                  blurRadius: 5.0) 
             ]),
             child: ListView(
               scrollDirection: Axis.horizontal,
@@ -191,7 +191,7 @@ class _AnasayfaState extends State<Anasayfa> {
           }
         },
         child: Padding(
-          padding: const EdgeInsets.only(left: 8.0, right: 8.0), // only
+          padding: const EdgeInsets.only(left: 8.0, right: 8.0), 
           child: Column(
             children: <Widget>[
               Stack(
