@@ -1,6 +1,6 @@
 # Social Media Sosyal Medya Uygulaması
 
-Flutter'da yapılmış bir mobil uygulama.
+Flutter'da yapılmış dart programlama dili ile programlanmış bir mobil uygulama.
 
 
 
